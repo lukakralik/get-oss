@@ -3,7 +3,7 @@ package models
 import (
 	_ "encoding/json"
 	_ "gorm.io/gorm"
-	_ "github.com/golang-module/carbon/v2"
+	 "github.com/golang-module/carbon/v2"
 )
 
 type Project struct {

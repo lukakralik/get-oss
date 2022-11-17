@@ -4,6 +4,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"net/http"
 	"github.com/golang-module/carbon/v2"
+	"backend/models"
 	_"encoding/json"
 )
 
@@ -34,6 +35,8 @@ var projects = []project{
 }
 
 func main() {
+	models.ConnectDatabase()
+
 	router := gin.Default()
 	router.GET("/projects", getProject)
 	router.POST("/projects", postProject) //first argument can be any address
