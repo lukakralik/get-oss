@@ -1,16 +1,18 @@
 package main
 
 import (
-   "github.com/gin-gonic/gin"
-   "net/http"
+	"github.com/gin-gonic/gin"
+	"net/http"
+	"github.com/golang-module/carbon/v2"
+	_"encoding/json"
 )
 
 type project struct {
-	ID		string `json:"id"`
-	Name    string `json:"name"`
-	Authors string `json:"authors"`
-	Rating  int    `json:"rating"`
-	//time added probs implemented via external lib
+	ID		int			   `json:"id"`
+	Name    string         `json:"name"`
+	Author	string	       `json:"author"`
+	Rating  float32		   `json:"rating"`
+	Time	carbon.Carbon  `json:"time"`
 }
 
 func getProject(c *gin.Context) {
@@ -18,13 +20,14 @@ func getProject(c *gin.Context) {
 }
 
 func postProject (c *gin.Context) {
-	var newProject project
+	var newProject project //initialize a new entry to our array
+	newProject.Time = carbon.Now() //specify the time parameter
 
 	if err := c.BindJSON(&newProject); err != nil {
 		return
 	}
 	projects = append(projects, newProject)
-	c.IndentedJSON(http.StatusCreated, newProject)
+	c.IndentedJSON(http.StatusCreated, newProject) //return http status and json of entry
 }
 
 var projects = []project{
