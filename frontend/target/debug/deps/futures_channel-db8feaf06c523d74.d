@@ -1,0 +1,10 @@
+/home/kralikl/Programming/get-oss/frontend/target/debug/deps/futures_channel-db8feaf06c523d74.rmeta: /home/kralikl/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/lib.rs /home/kralikl/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/lock.rs /home/kralikl/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/mpsc/mod.rs /home/kralikl/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/mpsc/queue.rs /home/kralikl/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/mpsc/sink_impl.rs /home/kralikl/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/oneshot.rs
+
+/home/kralikl/Programming/get-oss/frontend/target/debug/deps/futures_channel-db8feaf06c523d74.d: /home/kralikl/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/lib.rs /home/kralikl/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/lock.rs /home/kralikl/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/mpsc/mod.rs /home/kralikl/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/mpsc/queue.rs /home/kralikl/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/mpsc/sink_impl.rs /home/kralikl/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/oneshot.rs
+
+/home/kralikl/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/lib.rs:
+/home/kralikl/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/lock.rs:
+/home/kralikl/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/mpsc/mod.rs:
+/home/kralikl/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/mpsc/queue.rs:
+/home/kralikl/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/mpsc/sink_impl.rs:
+/home/kralikl/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.25/src/oneshot.rs:
