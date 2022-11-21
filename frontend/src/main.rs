@@ -1,5 +1,5 @@
 use yew::prelude::*;
-//use local post crate
+mod post;
 
 #[function_component]
 fn App() -> Html {
